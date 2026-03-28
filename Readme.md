@@ -177,7 +177,7 @@ kubectl get nodes
 
 ```bash
 # Build the React app
-cd ../flight-reservation-microservices/frontend
+cd ../flight-reservation-app/frontend
 export VITE_API_URL=http://<your-eks-load-balancer-url>
 npm install && npm run build
 
